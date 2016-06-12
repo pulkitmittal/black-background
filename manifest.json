@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Set Black Background",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ],
+  "background": {
+	"scripts": ["run.js"],
+    "persistent": false
+  }
+}
